@@ -14,7 +14,6 @@ import
 from './genreSelector';
 import GenerateButton from './generateButton';
 import styles from '../styles/styles';
-import randomStore from './generateButton';
  import{
  	genre1,
  	genre2,
