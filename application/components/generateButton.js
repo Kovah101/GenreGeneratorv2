@@ -43,7 +43,5 @@ var GenerateButton = React.createClass({
 	}
 });
 
-const randomStore = new GenerateButton ();
-export default randomStore;
 module.exports = GenerateButton; 
 
