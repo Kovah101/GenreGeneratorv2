@@ -1,5 +1,5 @@
 /* 
-
+Main file, renders screen and other components
 */
 
 import React, { Component } from 'react';
@@ -32,11 +32,10 @@ var MainOriginal = React.createClass ({
 	//used to check Generate button is working
 	changeRandoms(newGenres) { 
 		this.setState({
-			
 			chosenGenres : newGenres 
 		});
-			console.log('mainOriginal has the genres!');
-			console.log(this.state.chosenGenres);
+		console.log('mainOriginal has the genres!');
+		console.log(this.state.chosenGenres);
 	},
 
 	render(){
