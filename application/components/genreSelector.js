@@ -17,8 +17,6 @@ import {
  	genre3
 } from './genres.js';
 import styles from '../styles/styles';
-import {observer, computed} from 'mobx-react/native';
-import randomStore from './generateButton';
 
 @observer 
 class GenreSelector extends Component {
